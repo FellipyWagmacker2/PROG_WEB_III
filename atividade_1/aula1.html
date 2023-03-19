@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="tela"> 
+        <div id="aplicacao"> 
+            <form id="form">
+                <div id="circ"> 1 </div> <div id="cent">  Dados Pessoais </div> 
+                    <h2 id="titulo"> Cadastrar usuário </h2> <br><br>
+                    <!-- Nome -->
+                    <label> Nome: </label> <br>
+                    <input type="text" id="tam"> <br><br>
+
+                    <!-- Email -->
+                    <label> Email: </label> <br>
+                    <input type="text" id="tam"> <br><br>
+
+                    <!-- Senha -->
+                    <label> Senha: </label> <br>
+                    <input type="password" id="tam"> <br><br>
+
+                    <!-- Confirma Senha -->
+                    <label> Confirma Senha: </label> <br>
+                    <input type="password" id="tam"> <br><br>
+
+                    <!-- Idade -->
+                    <label> Idade: </label> <br>
+                    <input type="radio">
+                    <label> Acima 17 </label> <br>
+                    <input type="radio"> 
+                    <label> Abaixo ou igual 17 </label> <br> <br>
+
+                    <!-- Pefil 2 -->
+                    <div id="perfil"> 2 </div> <div id="perfil_2">  Dados Pessoais </div> <br><br>
+
+                    <!-- Descrição -->
+                    <label for="descricao"> Descrição: </label><br>
+                    <textarea id="descricao" name="descricao" rows="4" cols="30"> </textarea> <br> <br>
+
+                    <!-- Perfil trabalho -->
+                    <label for="trab"> Perfil trabalho: </label><br>
+                    <select name="areas" id="areas"> 
+                        <option value="Front_End Developer" > Front_End Developer </option>
+                    </select> <br><br>
+
+                    <!-- Interesse -->
+                    <label for="inte"> Interesses: </label><br>
+                    <input type="checkbox" id="inte" name="inte">
+                    <label> Programador </label><br>
+
+                    <input type="checkbox" id="inte" name="inte">
+                    <label> Design </label><br>
+
+                    <input type="checkbox" id="inte" name="inte">
+                    <label> Analista </label><br><br>
+
+                    <!-- Botão -->
+                    <button type="submit" id="bot"> Enviar dados </button> 
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

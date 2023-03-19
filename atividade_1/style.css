@@ -1,0 +1,108 @@
+#tela {
+    width: 450px;
+    height: 890px;
+    position: absolute;
+    left: 40%;
+    top: auto;
+    bottom: auto;
+    border: solid 1px;
+}
+
+#aplicacao {
+    margin: 20px;
+}
+
+#tam {
+    width: 400px;
+    height: 22px;
+    font-size: 18px;
+    margin: 0;
+    padding: 7px;
+    outline: 0;
+    height: auto;
+    border: 0;
+    box-shadow: 0 1px 0 black;
+
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+}
+
+#num_circ {
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(41, 204, 41);
+}
+
+#cent {
+    position: absolute;
+    top: 70px;
+    left: 46px;
+    font-size: 20px;
+
+}
+
+#circ {
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    height: 23px;
+    width: 25px;
+    background-color: rgb(41, 204, 41);
+    color: white;
+    font-size: 20px;
+}
+
+#perfil {
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 490px;
+    height: 23px;
+    width: 25px;
+    background-color: rgb(41, 204, 41);
+    color: white;
+    font-size: 20px;
+}
+
+#perfil_2 {
+    position: absolute;
+    top: 490px;
+    left: 46px;
+    font-size: 20px;
+}
+
+#areas {
+    width: 410px;
+    height: 30px;
+
+}
+
+#bot {
+    width: 400px;
+    height: 35px;
+    color: white;
+    background-color: rgb(41, 204, 41);
+    font-size: 20px;
+    border: 1px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
+#descricao {
+    width: 400px;
+    font-size: 17px;
+}

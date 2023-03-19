@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+ul,
+li {
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    padding: 5px;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+
+footer {
+    min-height: 50px;
+    margin-top: auto;
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+p {
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    left: 45%;
+
+}
+
+.imagem {
+    width: 250px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.selec_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+
+.ima {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}

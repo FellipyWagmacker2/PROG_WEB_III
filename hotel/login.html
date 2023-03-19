@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login </title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        p{
+            font-family: 'Parisienne', cursive;
+            font-size: 70px;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .tela{
+            width: 450px;
+            height: 580px;
+            position: absolute;
+            left: 37%;
+            top: 90px;
+            bottom: auto;
+        }
+
+        .formulario{
+            margin: 10px;
+            display: flex;
+            
+        }
+
+        .tamanho{
+            width: 425px;
+            height: 30px;
+            outline: 0;
+            box-shadow: 0 1px 0	#A9A9A9;
+            border: 0;
+            font-size: 22px;
+            margin-top: 40px;
+            margin-bottom: 35px;
+        }
+
+        .bot{
+            height: 40px;
+            width: 120px;
+            border: 1px;
+            border-radius: 5px;
+            background-color: rgb(14, 172, 137);
+            box-shadow: 2px 2px 0 #555;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .ima{
+            position: absolute;
+            height: 25px;
+            left: 95px;
+            top: 572px;
+        }
+
+        ul,li{
+            list-style: none;
+            font-size: 1.2rem;
+
+        }
+
+        a{
+            text-decoration: none;
+            color: green;
+        }
+
+        .menu{
+            display: flex;
+            justify-content: flex-end;
+            font-weight: bold;
+            font-family: 'Mukta', sans-serif;
+    
+        }
+
+        .menu li{
+            margin-left: 20px;
+        }
+
+        .menu li a{
+            padding: 5px;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 50px;
+        }
+
+        footer{
+            min-height: 50px;
+            margin-top: 800px;
+            color: green;
+            display: flex;
+            justify-content: center;
+            font-family: 'Mukta', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .imagem{
+            width: 250px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#"> <img src="img/logo.png" alt="Hotel Paraíso" class="imagem"> </a>
+        <!-- Navbar -->
+        <nav class="menu"> 
+            <!-- Home -->
+            <li><a href="aula2.html"> Home </a></li>
+
+            <!-- Sobre -->
+            <li><a href="sobre.html"> Sobre </a></li>
+
+            <!-- Login -->
+            <li><a href="login.html"> Login </a></li>
+
+            <!-- Contato -->
+            <li><a href="contato.html"> Contato </a></li>
+
+        </nav>
+
+    </header>
+
+    <footer> Todos os direitos reservados </footer>
+
+
+    <div class="tela">
+        <p> Fale conosco </p>
+        <div class="formulario">
+            <form>
+                <!-- Nome -->
+                <input type="text" class="tamanho" placeholder="Nome Completo"> 
+
+                <!-- Senha -->
+                <input type="password" class="tamanho" placeholder="Senha:">
+
+                <!-- Email -->
+                <input type="text" class="tamanho" placeholder="Email:">
+
+                <!-- Mesagem -->
+                <input type="text" class="tamanho" placeholder="Informe sua mensagem:"> 
+
+                <!-- Botão -->
+                <button class="bot"> Enviarㅤ<img class="ima" src="img/seta.png">  </button>
+            </form>
+        </div>     
+    </div>
+</body>
+</html>
