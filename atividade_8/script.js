@@ -39,10 +39,15 @@ const validateInputs = () => {
 
     if(passwordValue === '') {
         setError(password, 'Senha deve ser preenchida!');
-    } else if (passwordValue.length < 8 ) {
+    } else if (passwordValue.length < 6 || passwordValue.length > 30) {
         setError(password, 'Senha deve ter entre 6 a 30 caracteres!')
     } else {
         setSuccess(password);
     }
 
 };
+
+function limpar(){
+    document.getElementById("username").value = "";
+    document.getElementById("password").value = "";
+}
