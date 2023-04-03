@@ -1,0 +1,16 @@
+.accordion-cabecalho{
+    background:	#e7e7e7;
+    border: solid 1px #adadad;
+    padding: 1.2vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.accordion-conteudo{
+    border: solid 1px #adadad;
+    padding: 1.2vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
